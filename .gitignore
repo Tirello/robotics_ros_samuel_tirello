@@ -1,0 +1,17 @@
+# ROS 2 / colcon
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+
+# C++
+*.o
+*.out
+*.exe
+bin/
+
+# Editor
+.vscode/
