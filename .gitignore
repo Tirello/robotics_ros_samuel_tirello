@@ -1,17 +1,11 @@
-# ROS 2 / colcon
-build/
-install/
-log/
+# ROS 2 workspace
+ros_ws/build/
+ros_ws/install/
+ros_ws/log/
 
-# Python
-__pycache__/
+# Arquivos temporários
 *.pyc
+__pycache__/
 
-# C++
-*.o
-*.out
-*.exe
-bin/
-
-# Editor
+# Configurações locais de editores
 .vscode/

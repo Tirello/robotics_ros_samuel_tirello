@@ -1,0 +1,27 @@
+# ROS 2
+export ROS_DISTRO=jazzy
+
+# Source ROS
+source /opt/ros/$ROS_DISTRO/setup.bash
+
+# Source workspace
+if [ -f ~/ros_ws/install/setup.bash ]; then
+    source ~/ros_ws/install/setup.bash
+fi
+
+# ROS Domain ID
+export ROS_DOMAIN_ID=${ROS_DOMAIN_ID:-0}
+
+# Bash completion
+if [ -f /usr/share/bash-completion/bash_completion ]; then
+    source /usr/share/bash-completion/bash_completion
+fi
+
+# Prompt
+export PS1="(ROS_ID=\$ROS_DOMAIN_ID) \u@\h:\w\$ "
+
+# Reload bash
+alias reload="source ~/.bashrc"
+
+# Kill ROS2
+alias killros="pkill -f ros2"
