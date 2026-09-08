@@ -5,7 +5,7 @@
 // https://opensource.org/licenses/MIT.
 
 #ifndef GO_TO_GOAL__CONTROLLER_HPP_
-#define GO_TO_GOAL__CONTROLLER_HPP_c
+#define GO_TO_GOAL__CONTROLLER_HPP_
 
 #include <cmath>
 
