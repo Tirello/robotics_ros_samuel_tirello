@@ -16,14 +16,12 @@ namespace go_to_goal::geometry
 {
 
 /// Normaliza um ângulo para (-pi, pi].
-
 inline double wrap_to_pi(double angle)
 {
   return std::atan2(std::sin(angle), std::cos(angle));
 }
 
 /// Limita `value` a [-|limit|, +|limit|].
-
 inline double saturate(double value, double limit)
 {
   const double bound = std::abs(limit);
@@ -31,7 +29,6 @@ inline double saturate(double value, double limit)
 }
 
 /// Yaw do quaternion, assumindo movimento planar.
-
 inline double yaw_from_quaternion(const geometry_msgs::msg::Quaternion & q)
 {
   return std::atan2(
