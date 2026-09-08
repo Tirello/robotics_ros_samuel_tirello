@@ -91,6 +91,7 @@ go_to_goal/
 │   └── test_controller.cpp 7 testes do controlador
 ├── CMakeLists.txt
 ├── package.xml
+├── README.md
 └── LICENSE
 ```
 
@@ -142,6 +143,11 @@ São 32 checagens: 7 testes unitários do controlador — que rodam em cerca de 
 ROS — e os seis linters do ROS 2 (`cpplint`, `uncrustify`, `cppcheck`, `copyright`, `lint_cmake`,
 `xmllint`), todos habilitados.
 
+> Nesta imagem, as 4 checagens do `cppcheck` (uma por arquivo-fonte) aparecem como `skipped`: o
+> `ament_cppcheck` se desabilita sozinho na versão 2.13.0 do `cppcheck`, por uma limitação de
+> desempenho conhecida dessa versão. O que reprova a entrega é `errors` e `failures`, e os dois
+> ficam em zero.
+
 #### Verificar em execução
 
 Com o nó rodando, em outra aba do container:
@@ -181,6 +187,7 @@ onde as listas usam `cpp/lista-2`, `python/lista-4`, `linux/lista_6`.
 | `ros/lista-N` | listas de ROS 2 |
 | `ros/projeto-N` | projetos de ROS 2 — `ros/projeto-1` |
 | `docker/lista-N` | atividades de ambiente |
+| `docs/<assunto>` · `chore/<assunto>` | revisão de documentação ou manutenção, quando não é atividade nova |
 
 Commits seguem o padrão [Conventional Commits](https://www.conventionalcommits.org/): `feat:` para
 funcionalidade, `fix:` para correção, `docs:` para documentação.

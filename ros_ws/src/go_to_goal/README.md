@@ -78,6 +78,11 @@ São 32 checagens: 7 testes unitários do controlador — que rodam em cerca de 
 ROS — e os seis linters do ROS 2 (`cpplint`, `uncrustify`, `cppcheck`, `copyright`, `lint_cmake`,
 `xmllint`), todos habilitados.
 
+> Nesta imagem, as 4 checagens do `cppcheck` (uma por arquivo-fonte) aparecem como `skipped`: o
+> `ament_cppcheck` se desabilita sozinho na versão 2.13.0 do `cppcheck`, por uma limitação de
+> desempenho conhecida dessa versão. O que reprova a entrega é `errors` e `failures`, e os dois
+> ficam em zero.
+
 ## Verificar em execução
 
 Com o nó rodando, em outra aba do container:

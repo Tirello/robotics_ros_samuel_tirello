@@ -29,7 +29,6 @@ using std::placeholders::_1;
 
 // Fixo, e não um parâmetro: a taxa de publicação é contrato de interface com
 // quem consome /cmd_vel, não ajuste de sintonia.
-
 constexpr auto kControlPeriod = 100ms;
 
 rcl_interfaces::msg::ParameterDescriptor bounded(
@@ -59,7 +58,6 @@ rcl_interfaces::msg::ParameterDescriptor described(const std::string & descripti
 /// Assina /goal e /robot_position; publica /cmd_vel. Sem objetivo, publica
 /// velocidade nula: silêncio não equivale a comando de parada, porque a maioria
 /// das bases mantém a última velocidade até um timeout.
-
 class GoToGoalNode : public rclcpp::Node
 {
 public:
@@ -145,7 +143,6 @@ private:
 
   // Um Vector3 zerado é um objetivo válido (a origem), então a chegada de cada
   // entrada precisa ser rastreada explicitamente.
-
   bool has_goal_{false};
   bool has_robot_position_{false};
 };
