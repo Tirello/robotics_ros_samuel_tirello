@@ -32,6 +32,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ros-jazzy-controller-manager \
     ros-jazzy-joint-state-broadcaster \
     ros-jazzy-tf-transformations \
+    ros-jazzy-rqt-graph \
     && rm -rf /var/lib/apt/lists/*
 
 # Etapa 4: Configuração do ambiente de usuário
