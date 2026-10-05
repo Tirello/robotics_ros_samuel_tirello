@@ -1,0 +1,10 @@
+# Goal
+int32 limit
+---
+# Result
+bool success
+int32 final_value
+string message
+---
+# Feedback
+int32 current_value

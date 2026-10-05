@@ -198,6 +198,9 @@ funcionalidade, `fix:` para correção, `docs:` para documentação.
 |---|---|
 | Aula 2 — Docker e ROS: montagem do ambiente | `docker/` |
 | Projeto 1 — Publisher e Subscriber (`go_to_goal_node`) | `ros_ws/src/go_to_goal/` |
+| Lista 7 - ROS 2 Services | `custom_interfaces`, `services_cpp` e `services_py` |
+| Aula 8 - ROS 2 Actions | `custom_interfaces`, `actions_cpp` e `actions_py` |
+
 
 ## Licença
 

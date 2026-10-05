@@ -1,0 +1,8 @@
+float64 target_x
+float64 target_y
+float64 link1_length
+float64 link2_length
+---
+float64 theta1
+float64 theta2
+bool reachable
