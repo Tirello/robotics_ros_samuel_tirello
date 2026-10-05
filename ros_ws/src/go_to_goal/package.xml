@@ -7,7 +7,7 @@
     Controlador go-to-goal para base móvel: converte objetivo e pose em comando
     de velocidade publicado a 10 Hz.
   </description>
-  <maintainer email="tirellostd@gmail.com">Samuel Tirello</maintainer>
+  <maintainer email="samutirello@gmail.com">Samuel Tirello</maintainer>
   <license>MIT</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
