@@ -1,0 +1,10 @@
+# Goal
+float64 duration
+---
+# Result
+bool completed
+float64 elapsed
+string message
+---
+# Feedback
+float64 elapsed

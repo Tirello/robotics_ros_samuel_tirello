@@ -1,0 +1,6 @@
+float64[] x
+float64[] y
+---
+float64 slope
+float64 intercept
+float64 r_squared

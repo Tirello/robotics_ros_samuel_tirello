@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>services_cpp</name>
+  <version>0.1.0</version>
+  <description>C++ servers and clients for the ten SONHO service exercises.</description>
+  <maintainer email="samutirello@gmail.com">Samuel Tirello</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>custom_interfaces</depend>
+  <depend>geometry_msgs</depend>
+  <depend>rclcpp</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

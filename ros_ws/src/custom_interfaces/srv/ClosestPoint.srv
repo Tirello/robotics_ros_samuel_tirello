@@ -1,0 +1,6 @@
+Point2D reference
+Point2D[] candidates
+---
+Point2D closest
+float64 distance
+int64 index

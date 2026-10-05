@@ -1,0 +1,5 @@
+float64[] values
+---
+float64 minimum
+float64 maximum
+float64 average
